@@ -6,7 +6,7 @@
 
 
 ## Description
-Form to schedule a hike.
+Form to create a story and show it
 
 <br>
 
