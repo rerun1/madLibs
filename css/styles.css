@@ -1,3 +1,44 @@
+/* Journal - handwriting - in master fonts folder couldn't convert to woff2 */
+@font-face{
+  font-family : 'handwriting';
+  src : url('../fonts/journalHand/journal-webfont.eot');
+  src : url('../fonts/journalHand/journal-webfont.eot?#iefix') format('eot'),
+        url('../fonts/journalHand/journal-webfont.woff') format('woff'),
+        url('../fonts/journalHand/journal.ttf') format('truetype');
+  font-weight: normal;
+  font-style: cursive;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+
+
+
 #story {
   display: none;
+}
+h1 {
+  font-family: 'handwriting', cursive;
+  font-size: 5em;
+  font-variant: normal;
+  font-weight: normal;
+  font-style: cursive;
+  margin-top:1em;
+  color: blue;
+  text-align: center;
+}
+button{
+  width: 100%;
+  font-family: 'handwriting', cursive;
+  font-variant: normal;
+  font-weight: normal;
+  font-style: cursive;
+}
+.btn {
+  font-size: 3em;
+  color: blue;
+  text-align: center;
+}
+#makeAnother.btn {
+  color: red;
 }
